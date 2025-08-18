@@ -18,7 +18,7 @@
     <h3><u>TEMPLATE</u></h3>
     
         <ul>
-        <li>In the html boilerplate there is !doctype html which tells the web browser that this document is HTML 5.
+        <li>In the html boilerplate there is &lt;!doctype html&gt; which tells the web browser that this document is HTML 5.
         <li>Html is the root of the file.</li>
         <li>Title as it says the title of the website</li>
         <li>Body contains all the data which is to be rendered by the browser</li>
@@ -31,128 +31,238 @@
     
     <!-- This is a comment which is not shown in the website -->
      <hr>
+
      <h3><u>ATTRIBUTES</u></h3>
      <ul>
-        <li>Attributes are used to add more information to the tag as (html lang="en")</li>
+        <li>Attributes are used to add more information to the tag as &lt;html lang="en"&gt;</li>
      </ul> <br>
+
+
+
      <h3><u>HEADINGS</u></h3>
-     <h1>This is heading 1</h1>
-     <h2>This is heading 2</h2>
-     <h3>This is heading 3</h3>
-     <h4>This is heading 3</h4>
-     <h5>This is heading 3</h5><br>
+     <h1><code>&lt;h1&gt;This is heading 1&lt;/h1&gt;</code></h1>
+     <h2><code>&lt;h2&gt;This is heading 2&lt;/h2&gt;</code></h2>
+     <h3><code>&lt;h3&gt;This is heading 3&lt;/h3&gt;</code></h3>
+     <h4><code>&lt;h4&gt;This is heading 4&lt;/h4&gt;</code></h4>
+     <h5><code>&lt;h5&gt;This is heading 5&lt;/h5&gt;</code></h5>
+     <h6><code>&lt;h6&gt;This is heading 5&lt;/h6&gt;</code></h6><br>
      <hr>
-     <h3>Paragraph Tag</h3>
-     <p>This is a sample Paragraph</p>
+     <h3>Paragraph Tag </h3>
+     <p>&lt;p&gt;This is a sample Paragraph&lt;/p&gt;</p>
      <br>
+
+
+
      <h3>Anchor Tag</h3>
+     <ul>
+     <li><code>&lt;a&gt; href="Link Of the website">This directs you website&lt;/a&gt;</code></li><br>
+     <li><code>&lt;a&gt; href="Link of the website" target="_main">This opens a new tab for the website.&lt;/a&gt;</code></li><br>
+     <li><code>&lt;a&gt;a href="https://google.com" target="_main"><code>&lt;img src="location of image" width="64"&gt;</code>This image will lead you to google in a new tab&lt;/a&gt;</code></li></ul><br>
      <a href="https://google.com">This directs you to google website</a><br>
+     
      <a href="https://google.com" target="_main">This opens a new tab for google.</a><br>
-     <a href="https://google.com" target="_main"><img src="IMGLIB/google.png" width="64">This image will lead you to google in a new tab</a>
+     
+    
+     <a href="https://google.com" target="_main">This image will lead you to google in a new tab<img src="IMGLIB/google.png" width="64"></a><br>
+
+
+
+     
      <h3>Image Tag</h3>
+     <ul>
+     <li><code>&lt;img src="location of image" alt="Caption of the image if it is not loaded." width="64" height="64" &gt;</code></li></ul><br>
      <img src="IMGLIB/rubiks-cube-digital-art-wallpaper.jpg" alt="Rubiks Cube" width="100">
      <br>
+
+
+
      <h3>Highlighting Texts</h3>
      <p><b>Lorem ipsum dolor sit amet</b>, <u>consectetur adipisicing elit</u>. <i>Deleniti earum voluptate veniam, quibusdam totam odio et,</i> iusto ex aliquam eum perspiciatis magni omnis beatae alias voluptates voluptatum aut, necessitatibus deserunt.</p>
      <p>In the previous paragraph I have use all the things which is used to highlight the text.
-        Following things are used in this (b)(/b), (u)(/u) and (i)(/i). 
+        Following things are used in this <code>&lt;b&gt;&lt;/b&gt;</code>, <code>&lt;u&gt;&lt;/u&gt;</code> and <code>&lt;i&gt;&lt;/i&gt;</code>. 
      </p>
      <ul>
-        <li>(big)This is used for <big>big</big> character(/big)</li>
-        <li>(small)This is used for <small>small</small> character(/small)</li>
+        <li><code>&lt;big&gt;<big>This is used for big character</big>&lt;/big&gt;</code></li>
+        <li><code>&lt;small&gt;<small>This is used for small character</small>&lt;/small&gt;</li>
      </ul>
+
+
+
+
      <h3>HR Tag</h3>
-     <p>The line below this paragraph is called horizontal ruler.</p>
+     <p>The line below this paragraph is called horizontal ruler. &lt;hr&gt;</p>
      <hr>
+
+
+
+
      <h3>Subscript and Superscript</h3>
      H<sub>2</sub>O This is a example of Subscript.<br>
-     (A+B)<sup>2</sup>= A<sup>2</sup> + B<sup>2</sup> + 2AB This is a example of Superscript.<br>
+     (A+B)<sup>2</sup>= A<sup>2</sup> + B<sup>2</sup> + 2AB - This is a example of Superscript.<br>
+
+
+
+
      <h3>Pre Tag</h3>
      <p>This is used to display text as it is in the html file.</p>
      <p><pre>This                is a                   example 
         of 
         pre.</pre></p>
     <hr>
+
+
+
+
     <h3>PAGE LAYOUY TECHNIQUES</h3>
     <P>Using sematics tag for layout, using the right tags.</P>
     <ul>
-        <li>Header (header)Headings here.(/header)</li>
-        <li>Main (main)The content which you wrote.(/main)</li>
-        <li>Footer (footer)Here comes mostly your Contacts, About Me and your social links.(/footer)</li>
+        <li>Header &lt;header&gt;Headings here.&lt;/header&gt;</li>
+        <li>Main &lt;main&gt;The content which you wrote.&lt;/main&gt;</li>
+        <li>Footer &lt;footer&gt;Here comes mostly your Contacts, About Me and your social links.&lt;/footer&gt;</li>
     </ul>
+
+
     <h3>Inside the main tag</h3>
     <ul>
-        <li>Section Tag- for the section in your page, (section)(/section)</li>
-        <li>Article Tag- For an article on your page. (article)(/article)</li>
-        <li>Aside Tag- For content aside main tag, for example ads, (aside)(/aside)</li>
+        <li>Section Tag- for the section in your page, &lt;section&gt;&lt;/section&gt;</li>
+        <li>Article Tag- For an article on your page. &lt;article&gt;&lt;/article&gt;</li>
+        <li>Aside Tag- For content aside main tag, for example ads, &lt;aside&gt;&lt;/aside&gt;</li>
     </ul><hr>
     <h3>DIV Tags</h3>
     <p>Div is a container used for other HTML elements. Block elements take full width.</p>
-    Here is the list of Div Tags
+    
     <hr>
     <caption>Here is the list of DIV Tags.</caption>
     <table>
         <tr>
-        <td>address     </td>
-        <td>article     </td>
-        <td>aside       </td>
-        <td>blockquote  </td></tr>
+        <td><li>&lt;address&gt;</li></td>
+        <td><li>&lt;article&gt;</li> </td>
+        <td><li>&lt;aside&gt;</li></td>
+        <td><li>&lt;blockquote&gt;</li></td></tr>
         <tr>
-            <td>canvas   </td>
-            <td>dd       </td>
-            <td>div      </td>
-            <td>dl       </td>
-            <td>dt       </td>
+            <td><li>&lt;canvas&gt;</li></td>
+            <td><li>&lt;dd&gt;</li></td>
+            <td><li>&lt;div&gt;</li></td>
+            <td><li>&lt;dl&gt;</li></td>
+            <td><li>&lt;dt&gt;</li></td>
         </tr>
         <tr>
             
-            <td>fieldset    </td>
-            <td>figcaption  </td>
-            <td>figure      </td>
-            <td>footer      </td>
-            <td>form        </td>
+            <td><li>&lt;fieldset&gt;</li></td>
+            <td><li>&lt;figcaption&gt;</li></td>
+            <td><li>&lt;figure&gt;</li></td>
+            <td><li>&lt;footer&gt;</li></td>
+            <td><li>&lt;form&gt;</li></td>
         </tr>
         <tr>
             
-            <td>h1-h6     </td>
-            <td>header    </td>
-            <td>hr        </td>
-            <td>li        </td>
-            <td>main      </td>
+            <td><li>&lt;h1-h6</li></td>
+            <td><li>&lt;header&gt;</li></td>
+            <td><li>&lt;hr&gt;</li></td>
+            <td><li>&lt;li&gt;</li></td>
+            <td><li>&lt;main&gt;</li></td>
         </tr>
         <tr>
             
-            <td>nav       </td>
-            <td>noscript  </td>
-            <td>ol        </td>
-            <td>p         </td>
-            <td>pre       </td>
+            <td><li>&lt;nav&gt;</li></td>
+            <td><li>&lt;noscript&gt;</li></td>
+            <td><li>&lt;ol&gt;</li></td>
+            <td><li>&lt;p&gt;</li></td>
+            <td><li>&lt;pre&gt;</li></td>
         </tr>
         <tr>
-            <td>section   </td>
-            <td>table     </td>
-            <td>tfoot     </td>
-            <td>ul        </td>
-            <td>video     </td>
+            <td><li>&lt;section&gt;</li></td>
+            <td><li>&lt;table&gt;</li></td>
+            <td><li>&lt;tfoot&gt;</li></td>
+            <td><li>&lt;ul&gt;</li></td>
+            <td><li>&lt;video&gt;</li></td>
         </tr>
     </table><hr>
+
+
+    <h3>Span Tags</h3>
+
+        <p>Span is also a container used for other HTML elements. Inline elements take width as per size.</p>
+    
+    <hr>
+    <caption>Here is the list of Span Tags.</caption>
+    <table>
+        <tr>
+        <td><li>&lt;a&gt;</li></td>
+        <td><li>&lt;abbr&gt;</li> </td>
+        <td><li>&lt;acronym&gt;</li></td>
+        <td><li>&lt;b&gt;</li></td>
+        <td><li>&lt;bdo&gt;</li></td>
+    </tr>
+        <tr>
+            <td><li>&lt;big&gt;</li></td>
+            <td><li>&lt;br&gt;</li></td>
+            <td><li>&lt;button&gt;</li></td>
+            <td><li>&lt;site&gt;</li></td>
+            <td><li>&lt;code&gt;</li></td>
+        </tr>
+        <tr>
+            
+            <td><li>&lt;dfn&gt;</li></td>
+            <td><li>&lt;em&gt;</li></td>
+            <td><li>&lt;i&gt;</li></td>
+            <td><li>&lt;img&gt;</li></td>
+            <td><li>&lt;input&gt;</li></td>
+        </tr>
+        <tr>
+            
+            <td><li>&lt;kbd</li></td>
+            <td><li>&lt;label&gt;</li></td>
+            <td><li>&lt;map&gt;</li></td>
+            <td><li>&lt;object&gt;</li></td>
+            <td><li>&lt;tt&gt;</li></td>
+        </tr>
+        <tr>
+            
+            <td><li>&lt;var&gt;</li></td>
+            <td><li>&lt;output&gt;</li></td>
+            <td><li>&lt;q&gt;</li></td>
+            <td><li>&lt;samp&gt;</li></td>
+            <td><li>&lt;script&gt;</li></td>
+        </tr>
+        <tr>
+            <td><li>&lt;select&gt;</li></td>
+            <td><li>&lt;small&gt;</li></td>
+            <td><li>&lt;span&gt;</li></td>
+            <td><li>&lt;strong&gt;</li></td>
+            <td><li>&lt;sub&gt;</li></td>
+        </tr>
+        <tr>
+            <td><li>&lt;sup&gt;</li></td>
+            <td><li>&lt;textarea&gt;</li></td>
+            <td><li>&lt;time&gt;</li></td>
+    </table><hr>
+
+
     <h3>Thead and Tbody</h3>
-    <p>Thead- is to wrap table head</p>
-    <p>tbody- is to wrap table body</p><br>
+    <li><code>&lt;Thead&gt;</code>- is to wrap table head</li>
+    <li><code>&lt;tbody&gt;</code>- is to wrap table body</li><br>
 
     <h3>COLSPAN Attributes</h3>
     Used to create cells which spans over multiples columns. (colspan="n")<hr>
 
     <h3>FORMS in HTML</h3>
-    <p>Forms are used to collect data from the user. Example- sign up/login/help requests/contact me. (form) form content(/form)</p><br>
+    <p>Forms are used to collect data from the user. Example- sign up/login/help requests/contact me. &lt;form&gt; form content&lt;/form&gt;</p><br>
 
     <h4>Action in form</h4>
     <p>Action attribute is used to define what action needs to be performed when a form is submitted. (form action="/action.php")</p><br>
 
     <h4>Form Element: Input</h4>
+    <li><code>&lt;input text="text" placeholder="Enter Name"&gt;</code></li>
     <input text="text" placeholder="Enter Name">
 
     <h4>Label</h4>
+    <Li>&lt;label for="id1"&gt;
+        &lt;input type="radio" value="class X" name="class" id="id1"&gt; Class X
+    &lt;/label&gt;</Li>
+    <li>&lt;label for="id2"&gt;
+        &lt;input type="radio" value="class XII" name="class" id="id2"&gt; Class XII
+    &lt;/label&gt;</li><br>
     <label for="id1">
         <input type="radio" value="class X" name="class" id="id1"> Class X
     </label>
@@ -162,10 +272,19 @@
     </label><br>
 
     <h4>Class and ID</h4>
+    <li>&lt;div id="id3" class="grp1"&gt; &lt;/div&gt;</li>
+    <li>&lt;div id="id4" class="grp2"&gt; &lt;/div&gt;</li><br>
     <div id="id3" class="grp1"> </div>
     <div id="id4" class="grp2"> </div><br>
 
     <h4>Checkbox</h4>
+    <li>&lt;label for="id3"&gt;
+        &lt;input type="checkbox" value="class X" name="class" id="id3"&gt; Class X
+    &lt;/label&gt;</li>
+    <li>&lt;label for="id4"&gt;
+        &lt;input type="checkbox" value="class XII" name="class" id="id4"&gt; Class XII
+    &lt;/label&gt;</li>
+
     <label for="id3">
         <input type="checkbox" value="class X" name="class" id="id3"> Class X
     </label>
@@ -174,9 +293,15 @@
     </label>
 
     <h4>TextArea</h4>
+    <li>&lt;textarea name="feedback" id="feedback" placeholder="Please add Feedback"&gt;&lt;/textarea&gt;</li>
     <textarea name="feedback" id="feedback" placeholder="Please add Feedback"></textarea><br>
 
     <h4>Select Tag</h4>
+    <li>&lt;select name="city" id="city"&gt;
+        &lt;option value="Delhi"&gt;Delhi&lt;/option&gt;
+        &lt;option value="Mumbai"&gt;Mumbai&lt;/option&gt;
+        &lt;option value="Pune"&gt;Pune&lt;/option&gt;<br>
+    </select></li>
     <select name="city" id="city">
         <option value="Delhi">Delhi</option>
         <option value="Mumbai">Mumbai</option>
@@ -185,10 +310,16 @@
 
     <h3>iFrame Tag</h3>
     <p>Website inside website</p>
+
+    <li>&lt;iframe width="560" height="315" src="Embeded Link From the website" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Caption&lt;/iframe&gt;</li>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OJ62RzJkYUo?si=d2yMiD9BJZqQxHxR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Where is my mind song</iframe><br>
 
     <h3>Video Tag</h3>
-    I don't own this video. 
+    <li>&lt;video width="256" controls="true"&gt;
+        &lt;source src="location of video" type="video/mp4"&gt;
+    &lt;/video&gt;</li>
+
+    I don't own this video. <br>
     <video width="256" controls="true">
         <source src="vidlib/sample.mp4" type="video/mp4">
     </video>
