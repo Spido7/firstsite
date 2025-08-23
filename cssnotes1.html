@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Notes 01</title>
+    <style>
+        h5 {
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="CSS/cssnotes1.css">
+    
+</head>
+<body>
+    <h1>CSS</h1>
+    <ul>
+        <li>CSS stands for Cascading Style Sheet</li>
+        <li>It is a language that is used to describe the style of a document.</li>
+    </ul>
+    <h3>Basic Syntax</h3>
+    <code>&lt;h1 {color: red;}&gt;&lt;/h1&gt;</code><br>
+    <h3>Including Style</h3>
+    <li>Inline CSS- <code>&lt;h1 style="{color: red;}"&gt;&lt;/h1&gt;</code></li>
+    <li style="color: red;">This is called inline css</li>
+    <li>Using <code>&lt;Style&gt;</code> Tag - <h5>Using Style Tag</h5></li>
+    <li>Using External Stylesheet - Writing CSS in seperate document and linking it with HTML.</li>
+    <h6>This is done through external CSS stylesheet</h6><br>
+    <caption>TIPS</caption>
+    <ul>
+        <li>Don't try to include CSS in same file as HTML.</li>
+        <li>When using stylesheet don't try inline or style CSS</li>
+        <li>In CSS Inline and Style are prioritize</li>
+    </ul>
+    <h3>Color Property</h3>
+    <p>Used to set the color of foreground. Which is:-</p>
+    <li class="fg">Text</li>
+    <li>Button</li>
+    <li>Link</li>
+    <button>Click Me!</button>
+
+    <h3>Background Color Property</h3>
+    <p class="bg">Used to set the color of background.</p>
+
+    <h3>Selectors</h3>
+    <p>Used to select elements or group of elements.</p>
+    <li>Universal Selector - *{}</li>
+    <li>Element Selector - h1{}</li>
+    <li id="myid">Id Selector - #myid {}</li>
+    <li class="myclass">Class Selector - .myclass {}</li>
+
+    <h3>Text Align</h3>
+    <p class="textleft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, dolorum dignissimos sit quo ad deleniti et doloremque iste, sapiente odio rerum temporibus porro nihil! Itaque fugit expedita est ut quae.</p>
+    <p class="textcenter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, dolorum dignissimos sit quo ad deleniti et doloremque iste, sapiente odio rerum temporibus porro nihil! Itaque fugit expedita est ut quae.</p>
+    <p class="textright">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, dolorum dignissimos sit quo ad deleniti et doloremque iste, sapiente odio rerum temporibus porro nihil! Itaque fugit expedita est ut quae.</p>
+
+    <h3>Text Property</h3>
+    <li>text-decoration : <span class="uline">underline</span> / <span class="oline">overline</span> / <span class="linethrough">line-through</span></li>
+    <li>font-weight : <span class="normal">normal</span> / <span class="bold">bold</span> / <span class="bolder">bolder</span> / <span class="lighter">lighter</span></li>
+    <li>font-family : <span class="arial">arial</span></li>
+    <li>font-family : <span class="group">arial, roboto</span></li>
+    <li>line-height : 24px - <span id="lhpx">This height is decided in pixels</span></li>
+    <li>line-height : 0.3in - <span id="lhin">This height is decided in inch</span></li>
+    <li>line-height : Normal - <span id="lhdf">This height is decided by browser.</span></li>
+    <li>text-tranform : <span id="ttuc">uppercase</span> / <span id="ttlc">lowercase</span> / <span id="ttca">capitalize</span> / <span id="ttn">none</span></li>
+    <li>text-tranform : none; is mostly used in achor tags</li>
+    
+
+    <h3>Units in CSS</h3>
+    <li>96px = 1 inch (px is pixels)</li>
+    <li id="px">This is a sample text whose size is going to be 2px.</li>
+    
+
+</body>
+</html>

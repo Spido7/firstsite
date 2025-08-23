@@ -1,0 +1,85 @@
+ body {
+   font-size: 16px;
+   background-color: aqua;
+   font-family:'Times New Roman', Times, serif
+ }
+
+ button {
+   color:crimson;
+ }
+ 
+ h6 {
+    color: peru;
+ }
+ .fg {
+   color:red;
+ }
+ .bg {
+   background-color:#ffff00;
+ }
+ #myid {
+   color:purple;
+ }
+ .myclass {
+   color:brown;
+ }
+ .textleft {
+  text-align: left;
+ }
+ .textcenter {
+  text-align: center;
+ }
+ .textright {
+  text-align: right;
+ }
+ .uline {
+  text-decoration: underline;
+ }
+ .oline {
+  text-decoration: overline;
+ }
+ .linethrough {
+  text-decoration: line-through;
+ }
+ .normal{
+  font-weight: normal;
+ }
+ .bold {
+  font-weight: bold;
+ }
+ .bolder {
+  font-weight: bolder;
+ }
+ .lighter {
+  font-weight: lighter;
+ }
+ .arial {
+  font-family: arial;
+ }
+ .group {
+  font-family: arial, roboto;
+ }
+ #px {
+  font-size: 2px;
+ }
+ #lhpx {
+  font-size: 24px;
+ }
+ #lhin {
+  font-size: 0.3in;
+ }
+ #lhdf {
+  font-size: normal;
+ }
+ #ttuc {
+  text-transform: uppercase;
+ }
+ #ttlc {
+  text-transform: lowercase;
+ }
+ #ttca {
+  text-transform: capitalize;
+ }
+ #ttn {
+  text-transform: none;
+ }
