@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Notes 02</title>
+    <link rel="stylesheet" href="css/cssnotes2.css">
+</head>
+<body>
+    <div align="center";><h1 class="headh1">CSS</h1></div>
+    <h3>Box Model in CSS</h3>
+    <ul>
+        <li>Height - By default, it sets the content area height of the element</li>
+        <li>Width - By default, it sets the content area width of the element</li>
+        <li>Border - Used to set an element's border</li>
+        <li>Padding</li>
+        <li>Margin</li>
+    </ul>
+    <div class="boxhwb">This is a example of Height, Width and Border</div>
+
+    <h4>Border</h4>
+    <li>border-width : 2px;</li>
+    <li>border-style : solid / dotted / dashed</li>
+    <li>border-color : black;</li>
+    <li>SHORTHAND - border : 2px solid black;</li>
+    <li>BORDER RADIUS - Used to round the corners of an element's outer border edge</li>
+    <li>border-radius : 10px;</li>
+    <li>border-radius : 50%;</li>
+
+    <h3>HOW TO CREATE A CIRCLE</h3>
+    <div id="circle">DIV 1</div>
+    <li>Set border-radius to 50%</li>
+
+    <h4>Padding</h4>
+    <li>padding-left</li>
+    <li>padding-right</li>
+    <li>padding-top</li>
+    <li>padding-bottom</li>
+    <div class="boxpd">This is a example of padding</div>
+
+    <li>SHORTHAND - padding : 50px;</li>
+    <li>padding : 1px 2px 3px 4px; (It is considered in clockwise direction. Eg. Top, Right, Bottom, Left)</li>
+
+    <div class="boxsh">This is a example of shorthand padding</div>
+
+
+    <h4>Margin</h4>
+    <li>margin-right</li>
+    <li>margin-left</li>
+    <li>margin-top</li>
+    <li>margin-bottom</li><br>
+
+    <span class="box">BOX 1</span>
+    <span class="box">BOX 2</span>
+    <span class="box">BOX 3</span><br>
+
+    <h3>Display Property</h3>
+    <li>display: inline / block / inline-block / none</li>
+    <li>inline - Takes only the space required by the element. (no margin/ padding)</li>
+    <li>block - Takes full space available in width.</li>
+    <li>inline-block - Similar to inline but we can set margin & padding.</li>
+    <li>none - To remove element from document flow.</li>
+
+    <div id="inl">This is a div.</div>
+    <button id="blk">Click Me!</button><br>
+
+    <h4>Display Playground</h4>
+
+    <div id="blue">BOX 1</div>
+    <div id="green">BOX 2</div>
+    <div id="red">BOX 3</div>
+
+    <h3>Visibility</h3>
+    <li>When visibility is set to none, space for the element is reserved.</li>
+    <li>But for display set to none, no space is reserved or blocked for the
+element.</li>
+
+    <h3>Alpha Channel</h3>
+    <li>Opacity 0 to 1</li>
+    <li id="lessop">rgba - color: rgba(255, 0, 0, 0.5), This text has less opacity.</li>
+    <li id="maxop">rgba - color: rgba(255, 0, 0, 1), This text has max opacity.</li>
+
+</body>
+</html>

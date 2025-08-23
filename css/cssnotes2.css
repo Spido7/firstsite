@@ -1,0 +1,92 @@
+.headh1 {
+    width: 80px;
+    text-align: center;
+    text-decoration: black underline;
+    color:red;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+.boxhwb {
+    text-align: center;
+    background-color: turquoise;
+    height: 50px;
+    width: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+#circle {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    border-radius: 50%;
+}
+.boxpd {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: limegreen;
+    height: auto;
+    width: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+.boxsh {
+    background-color: limegreen;
+    height: auto;
+    width: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    padding: 1px 2px 3px 4px;
+}
+.box {
+    background-color: limegreen;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+    margin: 50px;
+}
+#inl {
+    background-color: aqua;
+    display: inline;
+}
+#blk {
+    display: block;
+}
+#blue {
+    display: inline-block;
+    margin: 25px;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+#green {
+    display: inline-block;
+    margin: 25px;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+#red {
+     display: inline-block;
+    margin: 25px;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#lessop {
+    color: rgba(255, 0, 0, 0.5);
+}
+#maxop {
+    color: rgba(255, 0, 0, 1)
+}
